@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio zawierające moje projekty">
+    <meta name="keywords" content="Programowanie, Portfolio, Front-end, Back-end">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer type="module"></script>
+    <title>Portfolio</title>
+</head>
+<body class="body">
+    <div id="app">
+      <div class="header--wrapper">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a class="AboutBtn">About me</a>
+                </li>
+                <li class="nav__item">
+                    <a class="SkillsBtn">Skills</a>
+                </li>
+                <li class="nav__item">
+                    <a class="ProjectsBtn">Projects</a>
+                </li>
+            </ul>
+        </nav>
+        <header class="header">
+            <h1 class="header__heading">Portfolio</h1>
+            <div class="header__icon"></div>
+        </header>
+      </div>
+      <main>
+          <section class="section">
+              <h1 class="section__heading" id="about">About me</h1> 
+              <article class="article">
+                  <div class="about--wrapper">
+                      <div class="about">
+                          <h2 class="about__heading">Who am i</h2>
+                          <div class="wrapper">
+                              <div class="picture"></div>
+                              <p>I'm a Polish Front-End developer. I am passionate about WEB app programming. An analytical thinker with great organization, attention to detail and good problem-solving skills.</p>
+                          </div>
+                          <p> I'm into basketball, R&B music and culture of Japan.</p>
+                      </div>
+                      <div class="logo">
+                      </div>
+                  </div>
+                  <div class="hobbies">
+                      <h2 class="about__heading">My Hobbies</h2>
+                      <div class="wrapper wrapper--modify">
+                          <div class="basketball">
+                              <h3>Basketball</h3>
+                              <div class="hobbies--photo basketball--photo"></div>
+                          </div>
+                          <div class="music">
+                              <h3>R&B music</h3>
+                              <div class="hobbies--photo music--photo"></div>
+                          </div>
+                          <div class="japan">
+                              <h3>Culture of japan</h3>
+                              <div class="hobbies--photo japan--photo"></div>
+                          </div>
+                      </div>
+                  </div>
+              </article>
+          </section>
+          <section class="section">
+              <h1 class="section__heading" id="skills">Skills</h1>
+              <article class="article">
+                  <div class="skills">
+                      <div class="front">
+                          <h2 class="about__heading">Front-End</h2>
+                          <ul class="skillsList">
+                              <li>
+                                  <h3 class="frontTech">HTML</h3>
+                                  <div class="count">
+                                      <div class="line firstHtml"></div>
+                                      <div class="line secondHtml"></div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <h3 class="frontTech">CSS</h3>
+                                  <div class="count">
+                                      <div class="line firstCss"></div>
+                                      <div class="line secondCss"></div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <h3 class="frontTech">JavaScript</h3>
+                                  <div class="count">
+                                      <div class="line firstJs"></div>
+                                      <div class="line secondJs"></div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <h3 class="frontTech">React</h3>
+                                  <div class="count">
+                                      <div class="line firstReact"></div>
+                                      <div class="line secondReact"></div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <h3 class="frontTech">Vue</h3>
+                                  <div class="count">
+                                      <div class="line firstVue"></div>
+                                      <div class="line secondVue"></div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <h3 class="frontTech">Tailwind</h3>
+                                  <div class="count">
+                                      <div class="line firstTailwind"></div>
+                                      <div class="line secondTailwind"></div>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="back">
+                          <h2 class="about__heading">Back-end</h2>
+                          <ul class="skillsList">
+                              <li>
+                                  <h3 class="backTech">PHP</h3>
+                                  <div class="count">
+                                      <div class="line firstPhp"></div>
+                                      <div class="line secondPhp"></div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <h3 class="backTech">Express</h3>
+                                  <div class="count">
+                                      <div class="line firstExpress"></div>
+                                      <div class="line secondExpress"></div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <h3 class="backTech">Node</h3>
+                                  <div class="count">
+                                      <div class="line firstNode"></div>
+                                      <div class="line secondNode"></div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <h3 class="backTech">Django</h3>
+                                  <div class="count">
+                                      <div class="line firstDjango"></div>
+                                      <div class="line secondDjango"></div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <h3 class="backTech">Mysql</h3>
+                                  <div class="count">
+                                      <div class="line firstMysql"></div>
+                                      <div class="line secondMysql"></div>
+                                  </div>
+                              </li>
+                              <li>
+                                  <h3 class="backTech">MongoDB</h3>
+                                  <div class="count">
+                                      <div class="line firstMongoDB"></div>
+                                      <div class="line secondMongoDB"></div>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </article>
+          </section>
+          <section class="section">
+              <h1 class="section__heading" id="projects">Projects</h1>
+              <article class="article">
+                  <div class="grid">
+                      <div class="project projectTask">
+                          <h2 class="about__heading">Task List</h2>
+                          <div>
+                            <p>Live:</p>
+                            <a href="https://task-listvanillajs.netlify.app" class="bigLink" target="_blank">task-listvanillajs.netlify.app</a>
+                          </div>
+                          <div>
+                            <p>Source code:</p>
+                            <a href="https://github.com/destru321/task-list" class="bigLink" target="_blank">github.com/task-list</a>
+                          </div>
+                      </div>
+                      <div class="project projectWeather">
+                          <h2 class="about__heading">Weather app</h2>
+                          <div>
+                            <p>Live:</p>
+                            <a href="https://weather-appvanillajs.netlify.app" class="bigLink" target="_blank">weather-appvanillajs.netlify.app</a>
+                          </div>
+                          <div>
+                            <p>Source code:</p>
+                            <a href="https://github.com/destru321/weather-app" class="bigLink" target="_blank">github.com/weather-app</a>
+                          </div>
+                      </div>
+                      <div class="project projectGithub">
+                          <h2 class="about__heading">Github finder</h2>
+                          <div>
+                            <p>Live:</p>
+                            <a href="https://github-findervanillajs.netlify.app" class="bigLink" target="_blank">github-findervanillajs.netlify.app</a>
+                          </div>
+                          <div>
+                            <p>Source code:</p>
+                            <a href="https://github.com/destru321/github-finder" class="bigLink" target="_blank">github.com/github-finder</a>
+                          </div>
+                      </div>
+                      <div class="project projectShop">
+                          <h2 class="about__heading">Online shop UI</h2>
+                          <div>
+                            <p>Workin on it</p>
+                            <a href="" class="bigLink" target="_blank"></a>
+                          </div>
+                          <div>
+                            <p></p>
+                            <a href="" class="bigLink"></a>
+                          </div>
+                      </div>
+                      <div class="project projectFeedback">
+                          <h2 class="about__heading">Feedback app</h2>
+                          <div>
+                            <p>Live:</p>
+                            <a href="https://feedback-appvanillajs.netlify.app" class="bigLink" target="_blank">feedback-appvanillajs.netlify.app</a>
+                          </div>
+                          <div>
+                            <p>Source code:</p>
+                            <a href="https://github.com/destru321/feedback-app" class="bigLink">github.com/feedback-app</a>
+                          </div>
+                      </div>
+                      <div class="project projectKeyboard">
+                          <h2 class="about__heading">Virtual keyboard</h2>
+                          <div>
+                            <p>Live:</p>
+                            <a href="https://virtualkeyboardvanillajs.netlify.app" class="bigLink" target="_blank">virtual-keyboardvanillajs.netlify.app</a>
+                          </div>
+                          <div>
+                            <p>Source code:</p>
+                            <a href="https://github.com/destru321/virtualKeyboard" class="bigLink">github.com/virtualKeyboard</a>
+                          </div>
+                      </div>
+                  </div>
+              </article>
+          </section>
+      </main>
+      <footer class="footer">
+          <h1>© Destru 2021</h1>
+      </footer>
+    </div>
+</body>
+</html>

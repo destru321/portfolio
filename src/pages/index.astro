@@ -1,11 +1,64 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import MainLayout from "../layouts/MainLayout.astro";
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<MainLayout>
+  <div class="flex flex-col gap-30">
+    <header class="flex flex-col justify-between gap-15">
+      <div class="flex flex-col justify-between">
+        <h1 class="text-primary-100 text-3xl">Dominik Machowski</h1>
+        <h2 class="text-primary-200 text-2xl mt-2">Full-stack developer</h2>
+        <p class="text-mint text-base mt-4">
+          Versatile engineer skilled in creating scalable web applications from
+          concept to deployment
+        </p>
+      </div>
+      <div class="flex gap-8">
+        <a href="https://github.com/destru321" rel="nofollow" target="_blank">
+          <img
+            src="../../public/icons/github.png"
+            alt="Link to GitHub profile"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/dominik-machowski-6a1036353/"
+          rel="nofollow"
+          target="_blank"
+        >
+          <img
+            src="../../public/icons/linkedin.png"
+            alt="Link to LinkedIn profile"
+          />
+        </a>
+      </div>
+    </header>
+    <main class="h-9/12 w-11/12">
+      <article class="flex flex-col h-full justify-between gap-8">
+        <h2 class="text-primary-200 text-2xl">About</h2>
+        <div class="flex flex-col gap-5">
+          <p class="text-mint">
+            I'm a web developer passionate about creating well-built
+            applications with excellent user experiences. Problem-solving has
+            always been a joy for me, making coding both a challenge and a
+            passion.
+          </p>
+          <p class="text-mint">
+            At the moment I’m still studying at technical school in Toruń, where
+            my programming journey has begun. Apart from the lectures we
+            contribute to the school projects such as library or CCTV systems.
+          </p>
+          <p class="text-mint">
+            I’ve also had opportunity to do an internship at the Fundacja
+            Aleksandra Jabłońskiego which collaborates with University of
+            Nicolaus Copernicus where I was responsible for creating a
+            Graphene2d conference app.
+          </p>
+          <p class="text-mint">
+            When I’m not in front of my laptop I usually play tennis, hang out
+            with my mates or travel.
+          </p>
+        </div>
+      </article>
+    </main>
+  </div>
+</MainLayout>

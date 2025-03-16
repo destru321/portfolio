@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@theme {
+  --color-primary-100: #F1F9F8;
+  --color-primary-200: #E2F3F1;
+  --color-mint: #C5E7E3;
+  --color-secondary: #3C3C3B;
+  --text-3xl: 32px;
+  --font-crimson: "Crimson Text", serif;
+}

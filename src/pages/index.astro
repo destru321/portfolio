@@ -4,46 +4,52 @@ import ProjectsList from "../components/ProjectsList";
 ---
 
 <MainLayout>
-  <div class="flex flex-col gap-30">
-    <header class="flex flex-col justify-between gap-15">
-      <div class="flex flex-col justify-between">
-        <h1 class="text-primary-100 text-3xl">Dominik Machowski</h1>
-        <h2 class="text-primary-200 text-2xl mt-2">Full-stack developer</h2>
-        <p class="text-mint text-base mt-4 w-80">
-          Versatile engineer skilled in creating scalable web applications from
-          concept to deployment
-        </p>
-      </div>
-      <div class="flex gap-8">
-        <a href="https://github.com/destru321" rel="nofollow" target="_blank">
-          <img src="/icons/github.png" alt="Link to GitHub profile" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/dominik-machowski-6a1036353/"
-          rel="nofollow"
-          target="_blank"
-        >
-          <img src="/icons/linkedin.png" alt="Link to LinkedIn profile" />
-        </a>
-      </div>
-    </header>
+  <div class="flex flex-col gap-30 lg:flex-row lg:justify-between">
     <div>
-      <main class="h-9/12 w-11/12 flex flex-col gap-15">
+      <header class="flex flex-col justify-between gap-15 lg:h-screen lg:fixed">
+        <div class="flex flex-col justify-between">
+          <h1 class="text-primary-100 text-3xl lg:text-4xl">
+            Dominik Machowski
+          </h1>
+          <h2 class="text-primary-200 text-2xl mt-2 lg:text-2xl">
+            Full-stack developer
+          </h2>
+          <p class="text-mint text-base mt-4 w-80 lg:text-lg lg:w-96">
+            Versatile engineer skilled in creating scalable web applications
+            from concept to deployment
+          </p>
+        </div>
+        <div class="flex gap-8 mb-10 lg:mb-40">
+          <a href="https://github.com/destru321" rel="nofollow" target="_blank">
+            <img src="/icons/github.png" alt="Link to GitHub profile" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/dominik-machowski-6a1036353/"
+            rel="nofollow"
+            target="_blank"
+          >
+            <img src="/icons/linkedin.png" alt="Link to LinkedIn profile" />
+          </a>
+        </div>
+      </header>
+    </div>
+    <div class="lg:w-6/12 flex flex-col justify-between">
+      <main class="h-9/12 w-11/12 flex flex-col gap-15 lg:gap-40">
         <article class="flex flex-col h-full justify-between gap-8">
-          <h2 class="text-primary-200 text-2xl">About</h2>
+          <h2 class="text-primary-200 text-2xl lg:hidden">About</h2>
           <div class="flex flex-col gap-5">
-            <p class="text-mint">
+            <p class="text-mint lg:text-lg">
               I'm a web developer passionate about creating well-built
               applications with excellent user experiences. Problem-solving has
               always been a joy for me, making coding both a challenge and a
               passion.
             </p>
-            <p class="text-mint">
+            <p class="text-mint lg:text-lg">
               At the moment I’m still studying at technical school in Toruń,
               where my programming journey has begun. Apart from the lectures we
               contribute to the school projects such as library or CCTV systems.
             </p>
-            <p class="text-mint">
+            <p class="text-mint lg:text-lg">
               I’ve also had opportunity to do an internship at the
               <a
                 href="http://www.faj.org.pl/"
@@ -76,14 +82,14 @@ import ProjectsList from "../components/ProjectsList";
               </a>
               conference app.
             </p>
-            <p class="text-mint">
+            <p class="text-mint lg:text-lg">
               When I’m not in front of my laptop I usually play tennis, hang out
               with my mates or travel.
             </p>
           </div>
         </article>
         <article class="flex flex-col gap-10">
-          <h2 class="text-primary-200 text-2xl">Projects</h2>
+          <h2 class="text-primary-200 text-2xl hidden">Projects</h2>
           <ProjectsList client:load />
         </article>
       </main>

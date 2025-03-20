@@ -5,7 +5,12 @@
   --color-primary-100: #F1F9F8;
   --color-primary-200: #E2F3F1;
   --color-mint: #C5E7E3;
-  --color-secondary: #3C3C3B;
+  --color-secondary: #343432;
   --text-3xl: 32px;
   --font-crimson: "Crimson Text", serif;
+}
+
+:root {
+  --mouse-x: 0px;
+  --mouse-y: 0px;
 }

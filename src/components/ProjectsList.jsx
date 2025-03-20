@@ -32,7 +32,7 @@ const ProjectList = () => {
         },
         {
             title: 'Npm data analysis package',
-            description: 'A npm package providing a complex tool for analyzing inputted data. Create reports and statistics based on your informations.',
+            description: 'A npm package providing a complex tool for analyzing inputted data. Create reports and statistics based on your datasets.',
             imageSource: '/images/npmdap.png',
             technologies: [
                 {
